@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(54, 54, 54);
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: rgb(72, 130, 255);
+    top: 30px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.menu a:hover{
+    transition: all .5s ease;
+    background-color: rgb(154, 201, 255);
+    color: black;
+}
+
+.gizli{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:460px) { 
+    .menu{
+        visibility: hidden;
+    }
+
+    .gizli{
+        visibility: visible;
+        color: white;
+    }
+}
+
+table {
+    width:500px;
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+    top: 100px;
+    position: relative;
+}
+table th {
+    border:1px solid #b3adad;
+    padding:5px;
+    background: #f0f0f0;
+    color: #313030;
+}
+table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #313030;
+}

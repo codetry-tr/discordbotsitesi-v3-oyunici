@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(54, 54, 54);
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: rgb(72, 130, 255);
+    top: 30px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.menu a:hover{
+    transition: all .5s ease;
+    background-color: rgb(154, 201, 255);
+    color: black;
+}
+
+.mobilmenus{
+    display: none;
+}
+
+.tanitim{
+    position: relative;
+    top: 150px;
+}
+
+.tanitim h2{
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.tanitim p{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    width: 500px;
+}
+
+.tanitim button{
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    background-color: rgb(72, 130, 255);
+    border-radius: 4px;
+    color: white;
+}
+
+.tanitim button:hover{
+    transition: all .5s ease;
+    background-color: rgb(154, 201, 255);
+    color: black;
+}
+
+.gizli{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:460px) { 
+    .tanitim{
+        visibility: hidden;
+    }
+
+    .menu{
+        visibility: hidden;
+    }
+
+    .gizli{
+        visibility: visible;
+        color: white;
+    }
+}
